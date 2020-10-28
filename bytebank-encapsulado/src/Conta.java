@@ -5,6 +5,12 @@ public class Conta {
 	private int numero;
 	private Cliente titular;
 
+	/* Construtor */
+	public Conta(int agencia, int numero) {
+		this.agencia = agencia;
+		this.numero = numero;
+	}
+	
 	/* Getters and Setters */
 	public double getSaldo() {
 		return this.saldo;
@@ -15,6 +21,10 @@ public class Conta {
 	}
 	
 	public void setAgencia(int agencia) {
+		if(agencia <= 0) {
+			System.out.println("-> Valor negativo nao eh permitido.");
+			return;
+		}
 		this.agencia = agencia;
 	}
 	
@@ -23,6 +33,10 @@ public class Conta {
 	}
 	
 	public void setNumero(int numero) {
+		if(numero <= 0) {
+			System.out.println("-> Valor negativo nao eh permitido.");
+			return;
+		}
 		this.numero = numero;
 	}
 	
