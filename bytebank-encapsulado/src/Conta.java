@@ -1,5 +1,7 @@
 public class Conta {
 
+	private static int total; 
+	
 	private double saldo;
 	private int agencia;
 	private int numero;
@@ -7,6 +9,8 @@ public class Conta {
 
 	/* Construtor */
 	public Conta(int agencia, int numero) {
+		Conta.total++;
+		System.out.println("O total de contas é: " + Conta.total);
 		this.agencia = agencia;
 		this.numero = numero;
 	}
@@ -46,6 +50,10 @@ public class Conta {
 	
 	public void setTitular(Cliente titular) {
 		this.titular = titular;
+	}
+	
+	public static int getTotal() {
+		return Conta.total;
 	}
 	
 	/* Metodos do Banco */
