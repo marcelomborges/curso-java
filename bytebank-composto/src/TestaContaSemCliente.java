@@ -3,7 +3,7 @@ public class TestaContaSemCliente {
 	
 	public static void main(String[] args) {
 		Conta contaMarcelo = new Conta();
-		System.out.println(contaMarcelo.saldo);
+		System.out.println(contaMarcelo.pegaSaldo());
 		
 		contaMarcelo.titular = new Cliente();
 		
