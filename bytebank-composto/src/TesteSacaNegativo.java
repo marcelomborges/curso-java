@@ -6,7 +6,7 @@ public class TesteSacaNegativo {
 		
 		System.out.println(conta.saca(101));
 		
-		System.out.println(conta.pegaSaldo());
+		System.out.println(conta.getSaldo());
 		//proibido fazer dessa forma
 		//System.out.println(conta.saldo);
 		//conta.saldo -= 101; 
