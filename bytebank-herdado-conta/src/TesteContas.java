@@ -2,6 +2,14 @@
 public class TesteContas {
 
 	public static void main(String[] args) {
+		
+//		Causando Excecoes
+//		int a = 3;
+//		int b = a / 0;
+//		
+//		ContaCorrente outra = null;
+//		outra.deposita(100);
+		
 		ContaCorrente cc = new ContaCorrente(111, 111);
 		cc.deposita(100.0);
 		
