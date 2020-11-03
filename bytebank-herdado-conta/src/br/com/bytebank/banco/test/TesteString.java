@@ -44,8 +44,16 @@ public class TesteString {
 //		String outroVazio = vazio.trim();
 //		System.out.println(outroVazio);
 		
-		String vazio = "  Alura  ";
-		System.out.println(vazio.contains("Alu"));
+//		String vazio = "  Alura  ";
+//		System.out.println(vazio.contains("Alu"));
+		
+		String s = "split;test;alura";
+		String[] split = s.split(";");
+
+		for(int i = 0; i < split.length; i++) {
+			System.out.println(split[i]);
+		}
+		
 	}
 
 }
