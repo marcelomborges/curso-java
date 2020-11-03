@@ -8,11 +8,9 @@ public class Teste {
 
 	public static void main(String[] args) {
 		
-		System.out.println("x");
-		System.out.println(3);
-		System.out.println(false);
-		
-		
+//		System.out.println("x");
+//		System.out.println(3);
+//		System.out.println(false);
 		
 		ContaCorrente cc = new ContaCorrente(111,111);
 		ContaPoupanca cp = new ContaPoupanca(222,222);
@@ -21,14 +19,13 @@ public class Teste {
 		System.out.println(cc.toString());
 		System.out.println(cp);
 		
-		println();
-		println("x");
-		println(1);
-		println(false);
-		println(cc);
-		println(cp);
-		println(c);
-
+//		println();
+//		println("x");
+//		println(1);
+//		println(false);
+//		println(cc);
+//		println(cp);
+//		println(c);
 	}
 	
 	static void println(Object o) {}
