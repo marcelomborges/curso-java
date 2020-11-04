@@ -2,7 +2,7 @@ package br.com.bytebank.banco.test;
 
 import br.com.bytebank.banco.modelo.*;
 
-public class Teste {
+public class TesteGuardadorDeContas {
 
 	public static void main(String[] args) {
 		
