@@ -9,7 +9,9 @@ public class TesteArrayList {
 
 	public static void main(String[] args) {
 
-		ArrayList<Conta> lista = new ArrayList<Conta>();
+		//ArrayList<Conta> lista = new ArrayList<Conta>();
+		//LinkedList<Conta> lista = new LinkedList<Conta>();
+		List<Conta> lista = new LinkedList<Conta>();
 		
 		Conta cc = new ContaCorrente(111, 111);
 		lista.add(cc);
