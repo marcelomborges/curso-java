@@ -11,7 +11,9 @@ public class TesteArrayList {
 
 		//ArrayList<Conta> lista = new ArrayList<Conta>();
 		//LinkedList<Conta> lista = new LinkedList<Conta>();
-		List<Conta> lista = new LinkedList<Conta>();
+		//Vector<Conta> lista = new Vector<Conta>();
+		//Collection<Conta> lista = new Vector<Conta>();
+		List<Conta> lista = new ArrayList<Conta>();//thread safe
 		
 		Conta cc = new ContaCorrente(111, 111);
 		lista.add(cc);
