@@ -6,6 +6,8 @@ public class Teste3 {
 	
 	public static void main(String[] args) throws IOException{
 		
+		long ini = System.currentTimeMillis();
+		
 		//PrintStream ps = new PrintStream(new File("lorem2.txt"));
 		PrintWriter ps = new PrintWriter("lorem2.txt");
 		
@@ -14,5 +16,10 @@ public class Teste3 {
 		ps.println("-> Teste de Escrita - Linha 2");
 		
 		ps.close();
+		
+		long fim = System.currentTimeMillis();
+
+        System.out.println("Passaram " + (fim - ini) + " milissegundos");
+
 	}
 }
