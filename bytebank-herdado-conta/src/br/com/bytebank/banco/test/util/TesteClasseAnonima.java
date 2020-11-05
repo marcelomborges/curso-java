@@ -1,11 +1,9 @@
 package br.com.bytebank.banco.test.util;
 
 import java.util.*;
-import java.util.function.Consumer;
-
 import br.com.bytebank.banco.modelo.*;
 
-public class Teste {
+public class TesteClasseAnonima {
 
 	public static void main(String[] args) {
 		Conta cc1 = new ContaCorrente(22, 33);
@@ -38,28 +36,32 @@ public class Teste {
         lista.add(cc3);
         lista.add(cc4);
         
-//        lista.sort((Conta c1, Conta c2) -> {
-//	        		
-//	        		return Integer.compare(c1.getNumero(), c2.getNumero());
-//	        	}
-//        );
+        lista.sort(new  Comparator<Conta>() { //Classe Anonima
+
+	        	@Override
+	        	public int compare(Conta c1, Conta c2) {
+	        		
+	        		return Integer.compare(c1.getNumero(), c2.getNumero());
+	        	}
+	        	
+	        }
+        );
         
-//        lista.sort(
-//        		(Conta c1, Conta c2) -> Integer.compare(c1.getNumero(), c2.getNumero())
-//    	);
-        
-        lista.sort( (c1,c2) -> Integer.compare(c1.getNumero(), c2.getNumero()) );
-        
-        Comparator<Conta> comp = (Conta c1, Conta c2) -> {
+        Comparator comp = new Comparator<Conta>() { //Classe Anonima
+        	
+        	@Override
+        	public int compare(Conta c1, Conta c2) {
         		String nomeC1 = c1.getTitular().getNome();
         		String nomeC2 = c2.getTitular().getNome();
         		
         		return nomeC1.compareTo(nomeC2);
+        	}
         };
         
-        lista.sort(comp);
+        for (Conta conta : lista) {
+			System.out.println(conta + ", Nome: " + conta.getTitular().getNome());
+		}
         
-        lista.forEach((conta) -> System.out.println(conta + ", Nome: " + conta.getTitular().getNome()));
 	}
 
 }
