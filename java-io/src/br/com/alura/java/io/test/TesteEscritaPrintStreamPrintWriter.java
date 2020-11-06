@@ -9,7 +9,7 @@ public class TesteEscritaPrintStreamPrintWriter {
 		long ini = System.currentTimeMillis();
 		
 		//PrintStream ps = new PrintStream(new File("lorem2.txt"));
-		PrintWriter ps = new PrintWriter("lorem2.txt");
+		PrintWriter ps = new PrintWriter("lorem2.txt", "UTF-8");
 		
 		ps.println("-> Teste de Escrita - Linha 1");
 		ps.println();
