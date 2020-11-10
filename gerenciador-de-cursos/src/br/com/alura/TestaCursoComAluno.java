@@ -20,6 +20,7 @@ public class TestaCursoComAluno {
 		javaColecoes.matricula(a2);
 		javaColecoes.matricula(a3);
 		
+		System.out.println("-> Alunos Matriculados:");
 		javaColecoes.getAlunos().forEach(aluno -> System.out.println("Aluno:" + aluno));
 		
 //		javaColecoes.getAlunos().forEach(aluno -> {
@@ -32,7 +33,20 @@ public class TestaCursoComAluno {
 		
 //		Set<String> nomes = Collections.emptySet();
 //      nomes.add("Paulo");
+		
+		System.out.println("-> O aluno " + a1 + " esta matriculado?");
+		System.out.println(javaColecoes.estaMatriculado(a1));
+		
+		Aluno turini = new Aluno("Rodrigo Turini", 34672);
+		System.out.println("-> O aluno " + turini + " esta matriculado?");
+		System.out.println(javaColecoes.estaMatriculado(turini));
+		
+		System.out.println("a1==turini: " + (a1==turini));
 
+		System.out.println("a1.equals(turini): " + (a1.equals(turini)));
+		
+		System.out.println("a1.hashCode()==turini.hashCode(): " + (a1.hashCode()==turini.hashCode()));
+		
 	}
 
 }
