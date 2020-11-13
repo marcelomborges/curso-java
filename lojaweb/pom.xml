@@ -27,7 +27,7 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -80,6 +80,12 @@
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.4.34.v20201102</version>
+
+				<configuration>
+					<webAppSourceDirectory>${project.basedir}/src/main/resources/webapp</webAppSourceDirectory>
+					<scanIntervalSeconds>10</scanIntervalSeconds>
+				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
