@@ -1,7 +1,7 @@
 <!-- JSP = Java Server Page -->
 
 <%
-	String nomeEmpresa ="Alura";
+	String nomeEmpresa = (String) request.getAttribute("empresa");
 	System.out.println(nomeEmpresa);
 %>
 
