@@ -13,6 +13,7 @@
 			Nome: <input type="text" name="nome" value="${empresa.nome}"/>
 			<fmt:formatDate value="${empresa.dataAbertura}" pattern="dd/MM/yyyy" var="data"/>
 			Data Abertura: <input type="text" name="data" value="${data}"/>
+			<input type="hidden" name="id" value="${empresa.id}">
 			<input type="submit" />
 		</form>
 	</body>
