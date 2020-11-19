@@ -11,6 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns="/hello")
 public class HelloWorldServlet extends HttpServlet{
 
+	public HelloWorldServlet() {
+		System.out.println("-> Criando Hello World Servlet");
+	}
+	
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		

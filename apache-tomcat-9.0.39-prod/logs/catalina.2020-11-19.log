@@ -1,0 +1,203 @@
+19-Nov-2020 12:17:31.666 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+19-Nov-2020 12:17:31.742 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+19-Nov-2020 12:17:31.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+19-Nov-2020 12:17:31.764 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Nov-2020 12:17:31.764 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Nov-2020 12:17:31.764 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2020 12:17:31.764 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_271\jre
+19-Nov-2020 12:17:31.765 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+19-Nov-2020 12:17:31.765 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2020 12:17:31.765 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:17:31.765 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:17:31.848 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\conf\logging.properties
+19-Nov-2020 12:17:31.849 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2020 12:17:31.850 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2020 12:17:31.850 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2020 12:17:31.850 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2020 12:17:31.851 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:17:31.854 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:17:31.855 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\temp
+19-Nov-2020 12:17:31.880 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\app\oracleXE\product\18.0.0\dbhomeXE\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Users\Carrefuor\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Carrefuor\AppData\Local\Programs\Python\Python37\;C:\Users\Carrefuor\AppData\Local\Microsoft\WindowsApps;C:\Users\Carrefuor\AppData\Local\atom\bin;C:\Users\Carrefuor\AppData\Local\Microsoft\WindowsApps;C:\Users\Carrefuor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Carrefuor\AppData\Roaming\npm;.]
+19-Nov-2020 12:17:34.175 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2020 12:17:34.892 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:444)
+		at sun.nio.ch.Net.bind(Net.java:436)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1039)
+		... 13 more
+19-Nov-2020 12:17:34.925 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [4316] milliseconds
+19-Nov-2020 12:17:35.076 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2020 12:17:35.077 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+19-Nov-2020 12:17:35.117 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\gerenciador.war]
+19-Nov-2020 12:17:37.301 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\gerenciador.war] has finished in [2.143] ms
+19-Nov-2020 12:17:37.307 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\docs]
+19-Nov-2020 12:17:37.381 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\docs] has finished in [75] ms
+19-Nov-2020 12:17:37.382 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\examples]
+19-Nov-2020 12:17:38.406 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\examples] has finished in [1.023] ms
+19-Nov-2020 12:17:38.407 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\host-manager]
+19-Nov-2020 12:17:38.494 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\host-manager] has finished in [88] ms
+19-Nov-2020 12:17:38.495 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\manager]
+19-Nov-2020 12:17:38.582 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\manager] has finished in [86] ms
+19-Nov-2020 12:17:38.582 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\ROOT]
+19-Nov-2020 12:17:38.680 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\ROOT] has finished in [97] ms
+19-Nov-2020 12:17:38.696 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [3765] milliseconds
+19-Nov-2020 12:17:38.708 GRAVE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: JVM_Bind
+		at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:102)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:513)
+		at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:180)
+		at java.net.ServerSocket.bind(ServerSocket.java:375)
+		at java.net.ServerSocket.<init>(ServerSocket.java:237)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Nov-2020 12:17:38.722 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2020 12:17:38.762 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2020 12:17:39.047 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2020 12:17:39.056 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2020 12:18:27.127 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+19-Nov-2020 12:18:27.132 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+19-Nov-2020 12:18:27.132 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+19-Nov-2020 12:18:27.133 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Nov-2020 12:18:27.133 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Nov-2020 12:18:27.134 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2020 12:18:27.134 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_271\jre
+19-Nov-2020 12:18:27.134 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+19-Nov-2020 12:18:27.135 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2020 12:18:27.135 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:18:27.135 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:18:27.137 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\conf\logging.properties
+19-Nov-2020 12:18:27.137 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2020 12:18:27.137 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2020 12:18:27.138 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2020 12:18:27.138 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2020 12:18:27.139 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:18:27.144 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:18:27.145 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\temp
+19-Nov-2020 12:18:27.162 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\app\oracleXE\product\18.0.0\dbhomeXE\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Users\Carrefuor\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Carrefuor\AppData\Local\Programs\Python\Python37\;C:\Users\Carrefuor\AppData\Local\Microsoft\WindowsApps;C:\Users\Carrefuor\AppData\Local\atom\bin;C:\Users\Carrefuor\AppData\Local\Microsoft\WindowsApps;C:\Users\Carrefuor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Carrefuor\AppData\Roaming\npm;.]
+19-Nov-2020 12:18:27.868 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2020 12:18:28.213 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1412] milliseconds
+19-Nov-2020 12:18:28.267 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2020 12:18:28.268 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+19-Nov-2020 12:18:28.309 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\gerenciador.war]
+19-Nov-2020 12:18:29.228 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\gerenciador.war] has finished in [915] ms
+19-Nov-2020 12:18:29.230 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\docs]
+19-Nov-2020 12:18:29.287 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\docs] has finished in [57] ms
+19-Nov-2020 12:18:29.289 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\examples]
+19-Nov-2020 12:18:29.879 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\examples] has finished in [591] ms
+19-Nov-2020 12:18:29.879 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\host-manager]
+19-Nov-2020 12:18:29.949 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\host-manager] has finished in [70] ms
+19-Nov-2020 12:18:29.950 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\manager]
+19-Nov-2020 12:18:30.013 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\manager] has finished in [64] ms
+19-Nov-2020 12:18:30.014 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\ROOT]
+19-Nov-2020 12:18:30.059 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\ROOT] has finished in [45] ms
+19-Nov-2020 12:18:30.068 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2020 12:18:30.080 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1865] milliseconds
+19-Nov-2020 12:24:17.785 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+19-Nov-2020 12:24:17.790 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+19-Nov-2020 12:24:17.791 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+19-Nov-2020 12:24:17.791 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Nov-2020 12:24:17.791 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Nov-2020 12:24:17.791 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2020 12:24:17.792 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_271\jre
+19-Nov-2020 12:24:17.792 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+19-Nov-2020 12:24:17.792 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2020 12:24:17.793 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:24:17.793 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:24:17.794 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\conf\logging.properties
+19-Nov-2020 12:24:17.795 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2020 12:24:17.795 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2020 12:24:17.795 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2020 12:24:17.796 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2020 12:24:17.797 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:24:17.803 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:24:17.803 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\temp
+19-Nov-2020 12:24:17.823 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\app\oracleXE\product\18.0.0\dbhomeXE\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Users\Carrefuor\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Carrefuor\AppData\Local\Programs\Python\Python37\;C:\Users\Carrefuor\AppData\Local\Microsoft\WindowsApps;C:\Users\Carrefuor\AppData\Local\atom\bin;C:\Users\Carrefuor\AppData\Local\Microsoft\WindowsApps;C:\Users\Carrefuor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Carrefuor\AppData\Roaming\npm;.]
+19-Nov-2020 12:24:18.580 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2020 12:24:19.003 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1566] milliseconds
+19-Nov-2020 12:24:19.060 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2020 12:24:19.061 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+19-Nov-2020 12:24:19.107 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\gerenciador.war]
+19-Nov-2020 12:24:19.140 INFORMAÇÕES [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\gerenciador] was found with a last modified time that did not match the associated WAR. It will be deleted.
+19-Nov-2020 12:24:20.599 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\gerenciador.war] has finished in [1.488] ms
+19-Nov-2020 12:24:20.602 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\docs]
+19-Nov-2020 12:24:20.735 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\docs] has finished in [133] ms
+19-Nov-2020 12:24:20.736 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\examples]
+19-Nov-2020 12:24:21.412 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\examples] has finished in [676] ms
+19-Nov-2020 12:24:21.413 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\host-manager]
+19-Nov-2020 12:24:21.509 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\host-manager] has finished in [95] ms
+19-Nov-2020 12:24:21.513 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\manager]
+19-Nov-2020 12:24:21.612 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\manager] has finished in [100] ms
+19-Nov-2020 12:24:21.613 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\ROOT]
+19-Nov-2020 12:24:21.668 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\ROOT] has finished in [54] ms
+19-Nov-2020 12:24:21.676 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2020 12:24:21.695 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [2690] milliseconds
+19-Nov-2020 12:27:20.433 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+19-Nov-2020 12:27:20.439 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+19-Nov-2020 12:27:20.440 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+19-Nov-2020 12:27:20.440 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Nov-2020 12:27:20.440 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Nov-2020 12:27:20.440 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2020 12:27:20.441 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_271\jre
+19-Nov-2020 12:27:20.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+19-Nov-2020 12:27:20.446 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2020 12:27:20.446 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:27:20.447 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:27:20.448 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\conf\logging.properties
+19-Nov-2020 12:27:20.449 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2020 12:27:20.449 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2020 12:27:20.449 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2020 12:27:20.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2020 12:27:20.456 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:27:20.465 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod
+19-Nov-2020 12:27:20.473 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\temp
+19-Nov-2020 12:27:20.564 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\app\oracleXE\product\18.0.0\dbhomeXE\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Users\Carrefuor\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Carrefuor\AppData\Local\Programs\Python\Python37\;C:\Users\Carrefuor\AppData\Local\Microsoft\WindowsApps;C:\Users\Carrefuor\AppData\Local\atom\bin;C:\Users\Carrefuor\AppData\Local\Microsoft\WindowsApps;C:\Users\Carrefuor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Carrefuor\AppData\Roaming\npm;.]
+19-Nov-2020 12:27:21.451 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+19-Nov-2020 12:27:21.768 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1839] milliseconds
+19-Nov-2020 12:27:21.893 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2020 12:27:21.894 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+19-Nov-2020 12:27:21.980 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\gerenciador.war]
+19-Nov-2020 12:27:23.156 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\gerenciador.war] has finished in [1.174] ms
+19-Nov-2020 12:27:23.159 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\docs]
+19-Nov-2020 12:27:23.244 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\docs] has finished in [85] ms
+19-Nov-2020 12:27:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\examples]
+19-Nov-2020 12:27:25.032 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\examples] has finished in [1.781] ms
+19-Nov-2020 12:27:25.033 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\host-manager]
+19-Nov-2020 12:27:25.198 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\host-manager] has finished in [161] ms
+19-Nov-2020 12:27:25.203 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\manager]
+19-Nov-2020 12:27:25.308 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\manager] has finished in [105] ms
+19-Nov-2020 12:27:25.309 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\ROOT]
+19-Nov-2020 12:27:25.391 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Carrefuor\eclipse-workspace\apache-tomcat-9.0.39-prod\webapps\ROOT] has finished in [81] ms
+19-Nov-2020 12:27:25.407 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+19-Nov-2020 12:27:25.433 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [3664] milliseconds
