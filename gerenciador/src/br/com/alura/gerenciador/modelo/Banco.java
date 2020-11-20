@@ -7,6 +7,7 @@ import java.util.List;
 public class Banco {
 	
 	private static List<Empresa> lista = new ArrayList<>();
+	private static List<Usuario> listaUsuarios = new ArrayList<>();
 	private static Integer chaveSequencial = 1;
 
 	static {
@@ -19,7 +20,17 @@ public class Banco {
 		
 		lista.add(empresa1);
 		lista.add(empresa2);
-	
+		
+		Usuario u1 = new Usuario();
+		u1.setLogin("marcelo");
+		u1.setSenha("666");
+		
+		Usuario u2 = new Usuario();
+		u2.setLogin("dante");
+		u2.setSenha("777");
+		
+		listaUsuarios.add(u1);
+		listaUsuarios.add(u2);
 	}
 	
 	public void adiciona(Empresa empresa) {
