@@ -11,6 +11,9 @@
 		<title>Java Standard Taglib</title>
 	</head>
 	<body>
+		
+		<p>Usuario Logado: ${usuarioLogado.login}</p>
+		
 		<c:if test="${not empty empresa}">
 			<p>Empresa ${empresa} Cadastrada com sucesso!</p>
 		</c:if>
