@@ -41,6 +41,14 @@ public class UnicaEntradaServlet extends HttpServlet {
 			throw new ServletException(e);
 		}
 		
+		String[] tipoEndereco = nome.split(":");
+		if(tipoEndereco[0].equals("forward")) {
+			RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/view/" + tipoEndereco[1]);
+			rd.forward(request,response);
+		} else {
+			response.sendRedirect(tipoEndereco[1]);
+		}
+		
 //		String nome = null;
 //		
 //		if(paramAcao.equals("ListaEmpresas")) {
@@ -70,14 +78,6 @@ public class UnicaEntradaServlet extends HttpServlet {
 //			NovaEmpresaForm acao = new NovaEmpresaForm();
 //			nome = acao.executa(request, response);
 //		}
-		
-		String[] tipoEndereco = nome.split(":");
-		if(tipoEndereco[0].equals("forward")) {
-			RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/view/" + tipoEndereco[1]);
-			rd.forward(request,response);
-		} else {
-			response.sendRedirect(tipoEndereco[1]);
-		}
 		
 
 		
