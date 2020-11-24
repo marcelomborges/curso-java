@@ -22,6 +22,8 @@ public class CriaConta {
 		
 		em.persist(conta);
 		
+		conta.setSaldo(11000.0);
+		
 		em.getTransaction().commit();
 	}
 

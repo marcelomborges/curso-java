@@ -13,16 +13,26 @@ public class CriaContaComSaldo {
 		EntityManager em = emf.createEntityManager();
 		
 		Conta conta = new Conta();
-		conta.setTitular("Baphomet");
+		conta.setTitular("Beelzebub");
 		conta.setNumero(6666);
 		conta.setAgencia(6666);
 		conta.setSaldo(6000.0);
 		
 		em.getTransaction().begin();
 		
-		em.persist(conta);
+		em.persist(conta); //Conta no estado Managed
 		
 		em.getTransaction().commit();
+		
+		em.close();
+		
+		EntityManager em2 = emf.createEntityManager();
+		System.out.println("-> ID da Conta: " + conta.getId());
+		conta.setSaldo(6666.6); //Conta no estado Detached
+		
+		em2.getTransaction().begin();
+		em2.merge(conta); //Conta no estado Managed (novamente)
+		em2.getTransaction().commit();
 
 	}
 
