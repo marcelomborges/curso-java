@@ -9,6 +9,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Movimentacao {
@@ -17,11 +18,19 @@ public class Movimentacao {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	public Conta getConta() {
+		return conta;
+	}
+	public void setConta(Conta conta) {
+		this.conta = conta;
+	}
 	@Enumerated(EnumType.STRING)
 	private TipoMovimentacao tipoMovimentacao;
 	private LocalDateTime data;
 	private String descricao;
 	private BigDecimal valor;
+	@ManyToOne
+	private Conta conta;
 	
 	public Long getId() {
 		return id;
