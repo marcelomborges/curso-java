@@ -24,7 +24,7 @@ public class TestaSomaDasMovimentacoes {
 		TypedQuery<Double> query2 = em.createQuery(jpql2, Double.class);
 		Double mediaDasMovimentacoes = query2.getSingleResult();
 		
-		System.out.println("Media das Movimentações: " + mediaDasMovimentacoes);
+		System.out.println("Média das Movimentações: " + mediaDasMovimentacoes);
 	}
 
 }
