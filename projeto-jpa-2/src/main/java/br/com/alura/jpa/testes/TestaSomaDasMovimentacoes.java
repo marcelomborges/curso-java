@@ -19,6 +19,12 @@ public class TestaSomaDasMovimentacoes {
 		BigDecimal somaDasMovimentacoes = query.getSingleResult();
 		
 		System.out.println("Soma das Movimentações: " + somaDasMovimentacoes);
+		
+		String jpql2 = "select avg(m.valor) from Movimentacao m";
+		TypedQuery<Double> query2 = em.createQuery(jpql2, Double.class);
+		Double mediaDasMovimentacoes = query2.getSingleResult();
+		
+		System.out.println("Media das Movimentações: " + mediaDasMovimentacoes);
 	}
 
 }
