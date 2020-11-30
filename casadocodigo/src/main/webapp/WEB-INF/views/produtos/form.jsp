@@ -11,29 +11,38 @@
 <title>Livro de Java, Android, Iphone, Ruby, PHP e muito mais - Casa do Código</title>
 </head>
 <body>
-	<form:form action="${s:mvcUrl('PC#gravar').build()}" method="POST" commandName="produto">
+	<form:form action="${s:mvcUrl('PC#gravar').build()}" method="POST" commandName="produto" enctype="multipart/form-data">
 		<div>
 			<label>Título: </label>
-			<input type="text" name="titulo">
-			<p><form:errors path="titulo" /></p>
+			<form:input path="titulo"/>
+			<p><form:errors path="titulo"/></p>
 		</div>
 		<div>
 			<label>Descrição: </label>
-			<textarea rows="10" cols="20" name="descricao"></textarea>
-			<p><form:errors path="descricao" /></p>
+			<form:textarea rows="10" cols="20" path="descricao"/>
+			<p><form:errors path="descricao"/></p>
 		</div>
 		<div>
 			<label>Páginas: </label>
-			<input type="text" name="paginas">
-			<p><form:errors path="paginas" /></p>
+			<form:input path="paginas"/>
+			<p><form:errors path="paginas"/></p>
+		</div>
+		<div>
+			<label>Data de Lançamento: </label>
+			<form:input path="dataLancamento"/>
+			<p><form:errors path="dataLancamento"/></p>
 		</div>
 		<c:forEach items="${tipos}" var="tipoPreco" varStatus="status">
 			<div>
 				<label>${tipoPreco}: </label>
-				<input type="text" name="precos[${status.index}].valor">
-				<input type="hidden" name="precos[${status.index}].tipo" value="${tipoPreco}">
+				<form:input path="precos[${status.index}].valor"/>
+				<form:hidden path="precos[${status.index}].tipo" value="${tipoPreco}"/>
 			</div>
 		</c:forEach>
+		<div>
+			<label>Sumário: </label>
+			<input type="file" name="sumario">
+		</div>
 		
 		<button type="submit">Cadastrar</button>
 	</form:form>
