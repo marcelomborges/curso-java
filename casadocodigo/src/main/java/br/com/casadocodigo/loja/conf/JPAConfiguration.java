@@ -23,9 +23,9 @@ public class JPAConfiguration {
 			
 			DriverManagerDataSource dataSource = new DriverManagerDataSource();
 			dataSource.setUsername("root");
-			dataSource.setPassword("");
-			dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo");
-			dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+			dataSource.setPassword("baal776#");
+			dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo?useTimezone=true&serverTimezone=UTC");
+			dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 			factoryBean.setDataSource(dataSource);
 			
 			Properties props = new Properties();
