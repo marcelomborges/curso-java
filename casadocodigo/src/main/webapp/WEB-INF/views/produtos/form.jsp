@@ -9,6 +9,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Livro de Java, Android, Iphone, Ruby, PHP e muito mais - Casa do Código</title>
+
+<c:url value="/resources/css" var="cssPath"/>
+<link rel="stylesheet" href="${cssPath}/bootstrap.min.css">
+<link rel="stylesheet" href="${cssPath}/bootstrap-theme.min.css">
+
 </head>
 <body>
 	<form:form action="${s:mvcUrl('PC#gravar').build()}" method="POST" commandName="produto" enctype="multipart/form-data">

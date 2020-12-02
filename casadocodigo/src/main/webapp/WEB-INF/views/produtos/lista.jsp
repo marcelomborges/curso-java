@@ -7,6 +7,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Livro de Java, Android, Iphone, Ruby, PHP e muito mais - Casa do Código</title>
+
+<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="resources/css/bootstrap-theme.min.css">
+
 </head>
 <body>
 	<h1>Lista de Produtos</h1>

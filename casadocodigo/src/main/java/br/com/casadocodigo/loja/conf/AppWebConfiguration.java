@@ -38,11 +38,6 @@ import br.com.casadocodigo.loja.models.CarrinhoCompras;
 @ComponentScan(basePackageClasses = {HomeController.class,ProdutoDAO.class, FileSaver.class, CarrinhoCompras.class})
 public class AppWebConfiguration extends WebMvcConfigurerAdapter{
 	
-	@Override
-	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-		configurer.enable();
-	}
-	
 	@Bean
 	public InternalResourceViewResolver internalResourceViewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
@@ -103,5 +98,10 @@ public class AppWebConfiguration extends WebMvcConfigurerAdapter{
 		resolver.setContentNegotiationManager(manager);
 		
 		return resolver;
+	}
+	
+	@Override
+	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+		configurer.enable();
 	}
 }
