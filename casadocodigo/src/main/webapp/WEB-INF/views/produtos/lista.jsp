@@ -14,6 +14,9 @@
 	<div>
 		<h2>${sucesso}</h2>
 	</div>
+	<div>
+		<h2>${falha}</h2>
+	</div>
 	
 	<table>
 		<tr>
