@@ -3,9 +3,9 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="tags"%>
 
-<%@include file="/WEB-INF/views/cabecalho.jsp" %>
-
+<tags:pageTemplate titulo="Detalhe">
 	<article id="${produto.id}">
 		<header id="product-highlight" class="clearfix">
 			<div id="product-overview" class="container">
@@ -60,8 +60,4 @@
 			</section>
 		</div>
 	</article>
-
-	<%@include file="/WEB-INF/views/rodape.jsp" %>
-	
-</body>
-</html>
+</tags:pageTemplate>
