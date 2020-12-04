@@ -5,7 +5,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib tagdir="/WEB-INF/tags" prefix="tags"%>
 
-<tags:pageTemplate titulo="Detalhe">
+<tags:pageTemplate titulo="${produto.titulo}">
 	<article id="${produto.id}">
 		<header id="product-highlight" class="clearfix">
 			<div id="product-overview" class="container">
@@ -21,7 +21,7 @@
 		</header>
 
 		<section class="buy-options clearfix">
-			<form:form action='${contextPath}/carrinho/add' method="post" cssClass="container">
+			<form:form servletRelativeAction="/carrinho/add" method="post" cssClass="container">
 				<input type="hidden" value="${produto.id}" name="produtoId" />
 				<ul id="variants" class="clearfix">
 					<c:forEach items="${produto.precos}" var="preco">
