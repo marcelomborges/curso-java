@@ -10,7 +10,9 @@
 				<ul class="clearfix">
 					<li>
 						<a href="${s:mvcUrl('CCC#itens').build()}" rel="nofollow">
-							<fmt:message key="menu.carrinho" />
+							<fmt:message key="menu.carrinho">
+								<fmt:param value="${carrinhoCompras.quantidade}"/>
+							</fmt:message>
 						</a>
 					</li>
 					<li>
