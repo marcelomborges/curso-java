@@ -34,8 +34,7 @@ public class ProdutoDAO {
 	}
 	
 	public BigDecimal somaProdutoPorTipoPreco(TipoPreco tipoPreco) {
-		TypedQuery<BigDecimal> query = manager.createQuery("select sum(preco.valor) from Produto p "
-				+ "join p.precos preco where preco.tipo = :tipoPreco", BigDecimal.class);
+		TypedQuery<BigDecimal> query = manager.createQuery("select sum(preco.valor) from Produto p join p.precos preco where preco.tipo = :tipoPreco", BigDecimal.class);
 		query.setParameter("tipoPreco", tipoPreco);
 		
 		return query.getSingleResult();
