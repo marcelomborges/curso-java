@@ -20,6 +20,16 @@
 							<fmt:message key="menu.sobre" />
 						</a>
 					</li>
+					<li>
+						<a href="?locale=pt" rel="nofollow">
+							<fmt:message key="menu.pt" />
+						</a>
+					</li>
+					<li>
+						<a href="?locale=en_US" rel="nofollow">
+							<fmt:message key="menu.en" />
+						</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
